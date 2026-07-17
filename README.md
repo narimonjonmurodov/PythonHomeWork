@@ -1,6 +1,6 @@
 # Assignment Tasks
 
-## 1. Number Guess Game [Link](Task1.py)
+## 1. Number Guess Game [LINK](Task1.py)
 - Generate a random number between 0 and 100.
 - Ask the user to guess the number.
 - If the guess is too low, display "Go higher."
@@ -8,7 +8,7 @@
 - Continue asking until the correct number is guessed.
 - When the user guesses correctly, display the total number of attempts.
 
-## 2. Rock Paper Scissors
+## 2. Rock Paper Scissors [LINK](Task2.py)
 - Play against the computer.
 - The computer chooses Rock, Paper, or Scissors randomly.
 - The user enters Rock, Paper, or Scissors.
