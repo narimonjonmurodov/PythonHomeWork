@@ -1,6 +1,6 @@
 # Assignment Tasks
 
-## 1. Number Guess Game
+## 1. Number Guess Game [Link](Task1.py)
 - Generate a random number between 0 and 100.
 - Ask the user to guess the number.
 - If the guess is too low, display "Go higher."
