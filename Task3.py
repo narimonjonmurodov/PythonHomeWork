@@ -15,18 +15,18 @@ while True:
         print("You Lost [Try again, if you want]") if chances == 0 else print("You Win [Congratulations;)]")
         break
 
-    latter = input("Please enter a alphabetical latter of word: ").upper().replace(" ", "")
+    letter = input("Please enter a alphabetical latter of word: ").upper().replace(" ", "")
 
-    if len(latter) != 1 or latter not in remind_w:
+    if len(letter) != 1 or letter not in remind_w:
         chances -= 1
 
-        print("Warning[amount of letter]: Please enter a latter") if len(latter) != 1 \
+        print("Warning[amount of letter]: Please enter a latter") if len(letter) != 1 \
         else print("Warning[not alphabetical]: Please enter a alphabetical latter") \
-        if not latter.isalpha() else print("Wrong, Please try again.")
+        if not letter.isalpha() else print("Wrong, Please try again.")
 
         print(f"You left {chances} chances.")
         continue
-    rm_word = rm_word.replace(latter, "_")
+    rm_word = rm_word.replace(letter, "_")
 
     for x in range(len(word)):
         print(word[x], end="") if rm_word[x] == "_" else print("_", end="")
