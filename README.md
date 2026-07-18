@@ -27,7 +27,7 @@
 - The user wins by revealing the entire word before running out of attempts.
 - The user loses if all 8 attempts are used before guessing the word.
 
-## 4. Vending Machine
+## 4. Vending Machine [LINK](Task4.py)
 Products:
 - Coffee: 150 TL
 - Tea: 90 TL
@@ -60,3 +60,9 @@ Admin Menu:
 - Exit.
 - Switch from Admin mode to User mode.
 - If a product is out of stock, ask whether to refill it.
+
+#### Photos:
+
+![photo](./media/mainMenu.png)
+![photo](./media/adminMenu.png)
+![photo](./media/userMenu.png)
